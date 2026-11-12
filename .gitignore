@@ -1,0 +1,30 @@
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code workspace settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Log files
+*.log
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+secrets/
+credentials.json
+
+# Node.js dependencies (if introduced later)
+node_modules/
+
+# Temporary build files
+dist/
+build/
